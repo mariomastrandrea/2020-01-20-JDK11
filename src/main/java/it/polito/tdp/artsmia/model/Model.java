@@ -117,6 +117,7 @@ public class Model
 		List<Artist> partialSolution = new ArrayList<>();
 		Set<Artist> partialSolutionSet = new HashSet<>();
 		partialSolution.add(startArtist);
+		partialSolutionSet.add(startArtist);
 		
 		this.searchBestPathsRecursively(partialSolution, partialSolutionSet, 0);
 		
